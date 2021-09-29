@@ -1,0 +1,866 @@
+[INFO] 2021-09-29 11:42:09.127 Aws_Init_Cleanup [140206369923264] Initiate AWS SDK for C++ with Version:1.9.108
+[DEBUG] 2021-09-29 11:42:09.127 FileSystemUtils [140206369923264] Environment value for variable HOME is /home/hamza
+[DEBUG] 2021-09-29 11:42:09.127 FileSystemUtils [140206369923264] Home directory is missing the final / appending one to normalize
+[DEBUG] 2021-09-29 11:42:09.127 FileSystemUtils [140206369923264] Final Home Directory is /home/hamza/
+[INFO] 2021-09-29 11:42:09.127 Aws::Config::AWSConfigFileProfileConfigLoader [140206369923264] Initializing config loader against fileName /home/hamza/.aws/credentials and using profilePrefix = 0
+[DEBUG] 2021-09-29 11:42:09.127 FileSystemUtils [140206369923264] Environment value for variable HOME is /home/hamza
+[DEBUG] 2021-09-29 11:42:09.127 FileSystemUtils [140206369923264] Home directory is missing the final / appending one to normalize
+[DEBUG] 2021-09-29 11:42:09.127 FileSystemUtils [140206369923264] Final Home Directory is /home/hamza/
+[INFO] 2021-09-29 11:42:09.127 Aws::Config::AWSConfigFileProfileConfigLoader [140206369923264] Initializing config loader against fileName /home/hamza/.aws/config and using profilePrefix = 1
+[DEBUG] 2021-09-29 11:42:09.127 FileSystemUtils [140206369923264] Environment value for variable HOME is /home/hamza
+[DEBUG] 2021-09-29 11:42:09.127 FileSystemUtils [140206369923264] Home directory is missing the final / appending one to normalize
+[DEBUG] 2021-09-29 11:42:09.127 FileSystemUtils [140206369923264] Final Home Directory is /home/hamza/
+[DEBUG] 2021-09-29 11:42:09.179 Aws::Config::ConfigFileProfileFSM [140206369923264] found profile default
+[DEBUG] 2021-09-29 11:42:09.180 Aws::Config::ConfigFileProfileFSM [140206369923264] found access key AKIAYMNKOGHN2VMCJN47
+[INFO] 2021-09-29 11:42:09.182 Aws::Config::AWSProfileConfigLoader [140206369923264] Successfully reloaded configuration.
+[DEBUG] 2021-09-29 11:42:09.182 FileSystemUtils [140206369923264] Environment value for variable HOME is /home/hamza
+[DEBUG] 2021-09-29 11:42:09.182 FileSystemUtils [140206369923264] Home directory is missing the final / appending one to normalize
+[DEBUG] 2021-09-29 11:42:09.182 FileSystemUtils [140206369923264] Final Home Directory is /home/hamza/
+[INFO] 2021-09-29 11:42:09.185 Aws::Config::AWSConfigFileProfileConfigLoader [140206369923264] Unable to open config file /home/hamza/.aws/config for reading.
+[INFO] 2021-09-29 11:42:09.185 Aws::Config::AWSProfileConfigLoader [140206369923264] Failed to reload configuration.
+[INFO] 2021-09-29 11:42:09.185 event-loop [140206369923264] id=0x55bf07c735a0: Initializing edge-triggered epoll
+[INFO] 2021-09-29 11:42:09.185 event-loop [140206369923264] id=0x55bf07c735a0: Using eventfd for cross-thread notifications.
+[INFO] 2021-09-29 11:42:09.185 event-loop [140206369923264] id=0x55bf07c735a0: Starting event-loop thread.
+[INFO] 2021-09-29 11:42:09.185 event-loop [140206369923264] id=0x55bf07c50fb0: Initializing edge-triggered epoll
+[INFO] 2021-09-29 11:42:09.185 event-loop [140206369923264] id=0x55bf07c50fb0: Using eventfd for cross-thread notifications.
+[INFO] 2021-09-29 11:42:09.185 event-loop [140206369923264] id=0x55bf07c50fb0: Starting event-loop thread.
+[INFO] 2021-09-29 11:42:09.186 dns [140206369923264] id=0x55bf07c77cd0: Initializing default host resolver with 8 max host entries.
+[INFO] 2021-09-29 11:42:09.186 event-loop [140206353123072] id=0x55bf07c50fb0: main loop started
+[INFO] 2021-09-29 11:42:09.186 event-loop [140206353123072] id=0x55bf07c50fb0: default timeout 100000, and max events to process per tick 100
+[INFO] 2021-09-29 11:42:09.186 channel-bootstrap [140206369923264] id=0x55bf07c781b0: Initializing client bootstrap with event-loop group 0x55bf07c78430
+[INFO] 2021-09-29 11:42:09.186 event-loop [140206361515776] id=0x55bf07c735a0: main loop started
+[INFO] 2021-09-29 11:42:09.186 event-loop [140206361515776] id=0x55bf07c735a0: default timeout 100000, and max events to process per tick 100
+[INFO] 2021-09-29 11:42:09.200 CurlHttpClient [140206369923264] Initializing Curl library with version: 7.68.0, ssl version: OpenSSL/1.1.1f
+[INFO] 2021-09-29 11:42:09.200 EC2MetadataClient [140206369923264] Using IMDS endpoint: http://169.254.169.254
+[DEBUG] 2021-09-29 11:42:09.200 ClientConfiguration [140206369923264] ClientConfiguration will use SDK Auto Resolved profile: [default] if not specified by users.
+[WARN] 2021-09-29 11:42:09.200 ClientConfiguration [140206369923264] Retry Strategy will use the default max attempts.
+[INFO] 2021-09-29 11:42:09.200 EC2MetadataClient [140206369923264] Creating AWSHttpResourceClient with max connections 2 and scheme http
+[INFO] 2021-09-29 11:42:09.200 CurlHandleContainer [140206369923264] Initializing CurlHandleContainer with size 2
+[DEBUG] 2021-09-29 11:42:09.201 ClientConfiguration [140206369923264] ClientConfiguration will use SDK Auto Resolved profile: [default] if not specified by users.
+[WARN] 2021-09-29 11:42:09.201 ClientConfiguration [140206369923264] Retry Strategy will use the default max attempts.
+[DEBUG] 2021-09-29 11:42:09.201 CurlHandleContainer [140206369923264] Attempting to acquire curl connection.
+[DEBUG] 2021-09-29 11:42:09.201 CurlHandleContainer [140206369923264] No current connections available in pool. Attempting to create new connections.
+[DEBUG] 2021-09-29 11:42:09.201 CurlHandleContainer [140206369923264] attempting to grow pool size by 2
+[INFO] 2021-09-29 11:42:09.201 CurlHandleContainer [140206369923264] Pool grown by 2
+[INFO] 2021-09-29 11:42:09.201 CurlHandleContainer [140206369923264] Connection has been released. Continuing.
+[DEBUG] 2021-09-29 11:42:09.201 CurlHandleContainer [140206369923264] Returning connection handle 0x55bf07d3b170
+[DEBUG] 2021-09-29 11:42:09.201 CurlHttpClient [140206369923264] Obtained connection handle 0x55bf07d3b170
+[DEBUG] 2021-09-29 11:42:09.202 CURL [140206369923264] (Text)   Trying 169.254.169.254:80...
+
+[DEBUG] 2021-09-29 11:42:09.202 CURL [140206369923264] (Text) TCP_NODELAY set
+
+[DEBUG] 2021-09-29 11:42:10.203 CURL [140206369923264] (Text) Connection timed out after 1001 milliseconds
+
+[DEBUG] 2021-09-29 11:42:10.203 CURL [140206369923264] (Text) Closing connection 0
+
+[ERROR] 2021-09-29 11:42:10.203 CurlHttpClient [140206369923264] Curl returned error code 28 - Timeout was reached
+[DEBUG] 2021-09-29 11:42:10.204 CurlHandleContainer [140206369923264] Destroy curl handle: 0x55bf07d3b170
+[DEBUG] 2021-09-29 11:42:10.204 CurlHandleContainer [140206369923264] Created replacement handle and released to pool: 0x55bf07d3b170
+[ERROR] 2021-09-29 11:42:10.204 EC2MetadataClient [140206369923264] Http request to retrieve credentials failed
+[WARN] 2021-09-29 11:42:10.204 EC2MetadataClient [140206369923264] Request failed, now waiting 0 ms before attempting again.
+[DEBUG] 2021-09-29 11:42:10.204 CurlHandleContainer [140206369923264] Attempting to acquire curl connection.
+[INFO] 2021-09-29 11:42:10.204 CurlHandleContainer [140206369923264] Connection has been released. Continuing.
+[DEBUG] 2021-09-29 11:42:10.204 CurlHandleContainer [140206369923264] Returning connection handle 0x55bf07d3b170
+[DEBUG] 2021-09-29 11:42:10.204 CurlHttpClient [140206369923264] Obtained connection handle 0x55bf07d3b170
+[DEBUG] 2021-09-29 11:42:10.204 CURL [140206369923264] (Text)   Trying 169.254.169.254:80...
+
+[DEBUG] 2021-09-29 11:42:10.204 CURL [140206369923264] (Text) TCP_NODELAY set
+
+[DEBUG] 2021-09-29 11:42:11.206 CURL [140206369923264] (Text) Connection timed out after 1001 milliseconds
+
+[DEBUG] 2021-09-29 11:42:11.206 CURL [140206369923264] (Text) Closing connection 0
+
+[ERROR] 2021-09-29 11:42:11.206 CurlHttpClient [140206369923264] Curl returned error code 28 - Timeout was reached
+[DEBUG] 2021-09-29 11:42:11.206 CurlHandleContainer [140206369923264] Destroy curl handle: 0x55bf07d3b170
+[DEBUG] 2021-09-29 11:42:11.206 CurlHandleContainer [140206369923264] Created replacement handle and released to pool: 0x55bf07d3b170
+[ERROR] 2021-09-29 11:42:11.206 EC2MetadataClient [140206369923264] Http request to retrieve credentials failed
+[ERROR] 2021-09-29 11:42:11.206 EC2MetadataClient [140206369923264] Can not retrieve resource from http://169.254.169.254/latest/meta-data/placement/availability-zone
+[INFO] 2021-09-29 11:42:11.206 EC2MetadataClient [140206369923264] Unable to pull region from instance metadata service 
+[DEBUG] 2021-09-29 11:42:11.206 FileSystemUtils [140206369923264] Environment value for variable HOME is /home/hamza
+[DEBUG] 2021-09-29 11:42:11.206 FileSystemUtils [140206369923264] Home directory is missing the final / appending one to normalize
+[DEBUG] 2021-09-29 11:42:11.206 FileSystemUtils [140206369923264] Final Home Directory is /home/hamza/
+[INFO] 2021-09-29 11:42:11.206 Aws::Config::AWSConfigFileProfileConfigLoader [140206369923264] Initializing config loader against fileName /home/hamza/.aws/credentials and using profilePrefix = 0
+[DEBUG] 2021-09-29 11:42:11.206 FileSystemUtils [140206369923264] Environment value for variable HOME is /home/hamza
+[DEBUG] 2021-09-29 11:42:11.206 FileSystemUtils [140206369923264] Home directory is missing the final / appending one to normalize
+[DEBUG] 2021-09-29 11:42:11.206 FileSystemUtils [140206369923264] Final Home Directory is /home/hamza/
+[DEBUG] 2021-09-29 11:42:11.206 FileSystemUtils [140206369923264] Environment value for variable HOME is /home/hamza
+[DEBUG] 2021-09-29 11:42:11.206 FileSystemUtils [140206369923264] Home directory is missing the final / appending one to normalize
+[DEBUG] 2021-09-29 11:42:11.206 FileSystemUtils [140206369923264] Final Home Directory is /home/hamza/
+[INFO] 2021-09-29 11:42:11.206 ProfileConfigFileAWSCredentialsProvider [140206369923264] Setting provider to read credentials from /home/hamza/.aws/credentials for credentials file and /home/hamza/.aws/config for the config file , for use with profile default
+[INFO] 2021-09-29 11:42:11.206 ProcessCredentialsProvider [140206369923264] Setting process credentials provider to read config from default
+[WARN] 2021-09-29 11:42:11.207 STSAssumeRoleWithWebIdentityCredentialsProvider [140206369923264] Token file must be specified to use STS AssumeRole web identity creds provider.
+[INFO] 2021-09-29 11:42:11.207 SSOCredentialsProvider [140206369923264] Setting sso credentials provider to read config from default
+[DEBUG] 2021-09-29 11:42:11.207 DefaultAWSCredentialsProviderChain [140206369923264] The environment variable value AWS_CONTAINER_CREDENTIALS_RELATIVE_URI is 
+[DEBUG] 2021-09-29 11:42:11.207 DefaultAWSCredentialsProviderChain [140206369923264] The environment variable value AWS_CONTAINER_CREDENTIALS_FULL_URI is 
+[DEBUG] 2021-09-29 11:42:11.207 DefaultAWSCredentialsProviderChain [140206369923264] The environment variable value AWS_EC2_METADATA_DISABLED is 
+[INFO] 2021-09-29 11:42:11.207 InstanceProfileCredentialsProvider [140206369923264] Creating Instance with default EC2MetadataClient and refresh rate 300000
+[INFO] 2021-09-29 11:42:11.207 DefaultAWSCredentialsProviderChain [140206369923264] Added EC2 metadata service credentials provider to the provider chain.
+[DEBUG] 2021-09-29 11:42:11.211 Aws::Config::ConfigFileProfileFSM [140206369923264] found profile default
+[DEBUG] 2021-09-29 11:42:11.211 Aws::Config::ConfigFileProfileFSM [140206369923264] found access key AKIAYMNKOGHN2VMCJN47
+[INFO] 2021-09-29 11:42:11.212 Aws::Config::AWSProfileConfigLoader [140206369923264] Successfully reloaded configuration.
+[INFO] 2021-09-29 11:42:11.213 CurlHandleContainer [140206369923264] Initializing CurlHandleContainer with size 25
+[DEBUG] 2021-09-29 11:42:11.213 AWSAuthV4Signer [140206369923264] Note: Http payloads are not being signed. signPayloads=0 http scheme=https
+[DEBUG] 2021-09-29 11:42:11.214 AWSAuthV4Signer [140206369923264] Canonical Header String: amz-sdk-invocation-id:9D7E0B67-4F6C-4DAE-B271-ADC9690FBD96
+amz-sdk-request:attempt=1
+host:s3.us-east-1.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20210929T114211Z
+
+[DEBUG] 2021-09-29 11:42:11.214 AWSAuthV4Signer [140206369923264] Signed Headers value:amz-sdk-invocation-id;amz-sdk-request;host;x-amz-content-sha256;x-amz-date
+[DEBUG] 2021-09-29 11:42:11.214 AWSAuthV4Signer [140206369923264] Canonical Request String: GET
+/
+
+amz-sdk-invocation-id:9D7E0B67-4F6C-4DAE-B271-ADC9690FBD96
+amz-sdk-request:attempt=1
+host:s3.us-east-1.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20210929T114211Z
+
+amz-sdk-invocation-id;amz-sdk-request;host;x-amz-content-sha256;x-amz-date
+UNSIGNED-PAYLOAD
+[DEBUG] 2021-09-29 11:42:11.214 AWSAuthV4Signer [140206369923264] Final String to sign: AWS4-HMAC-SHA256
+20210929T114211Z
+20210929/us-east-1/s3/aws4_request
+5b0bbe18ffdbef2b66bf5a7f7925d46dc96e1c91de3a477d6434ecb6413b8e32
+[DEBUG] 2021-09-29 11:42:11.214 AWSAuthV4Signer [140206369923264] Final computed signing hash: 36e9293a6594e9134dbe4a672c18076481494e3014f4ef44852595a7a02b8689
+[DEBUG] 2021-09-29 11:42:11.214 AWSAuthV4Signer [140206369923264] Signing request with: AWS4-HMAC-SHA256 Credential=AKIAYMNKOGHN2VMCJN47/20210929/us-east-1/s3/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-request;host;x-amz-content-sha256;x-amz-date, Signature=36e9293a6594e9134dbe4a672c18076481494e3014f4ef44852595a7a02b8689
+[DEBUG] 2021-09-29 11:42:11.214 AWSClient [140206369923264] Request Successfully signed
+[DEBUG] 2021-09-29 11:42:11.214 CurlHandleContainer [140206369923264] Attempting to acquire curl connection.
+[DEBUG] 2021-09-29 11:42:11.214 CurlHandleContainer [140206369923264] No current connections available in pool. Attempting to create new connections.
+[DEBUG] 2021-09-29 11:42:11.214 CurlHandleContainer [140206369923264] attempting to grow pool size by 2
+[INFO] 2021-09-29 11:42:11.214 CurlHandleContainer [140206369923264] Pool grown by 2
+[INFO] 2021-09-29 11:42:11.214 CurlHandleContainer [140206369923264] Connection has been released. Continuing.
+[DEBUG] 2021-09-29 11:42:11.214 CurlHandleContainer [140206369923264] Returning connection handle 0x55bf07d4c300
+[DEBUG] 2021-09-29 11:42:11.214 CurlHttpClient [140206369923264] Obtained connection handle 0x55bf07d4c300
+[DEBUG] 2021-09-29 11:42:12.214 CURL [140206369923264] (Text) Resolving timed out after 1000 milliseconds
+
+[DEBUG] 2021-09-29 11:42:12.894 CURL [140206369923264] (Text) Closing connection 0
+
+[ERROR] 2021-09-29 11:42:12.894 CurlHttpClient [140206369923264] Curl returned error code 28 - Timeout was reached
+[DEBUG] 2021-09-29 11:42:12.894 CurlHandleContainer [140206369923264] Destroy curl handle: 0x55bf07d4c300
+[DEBUG] 2021-09-29 11:42:12.894 CurlHandleContainer [140206369923264] Created replacement handle and released to pool: 0x55bf07d4c300
+[DEBUG] 2021-09-29 11:42:12.894 AWSClient [140206369923264] Request returned error. Attempting to generate appropriate error codes from response
+[ERROR] 2021-09-29 11:42:12.894 AWSClient [140206369923264] HTTP response code: -1
+Resolved remote host IP address: 
+Request ID: 
+Exception name: 
+Error message: curlCode: 28, Timeout was reached
+0 response headers:
+[WARN] 2021-09-29 11:42:12.894 AWSClient [140206369923264] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[DEBUG] 2021-09-29 11:42:12.894 AWSClient [140206369923264] Date header was not found in the response, can't attempt to detect clock skew
+[WARN] 2021-09-29 11:42:12.894 AWSClient [140206369923264] Request failed, now waiting 0 ms before attempting again.
+[DEBUG] 2021-09-29 11:42:12.895 AWSAuthV4Signer [140206369923264] Note: Http payloads are not being signed. signPayloads=0 http scheme=https
+[DEBUG] 2021-09-29 11:42:12.895 AWSAuthV4Signer [140206369923264] Canonical Header String: amz-sdk-invocation-id:9D7E0B67-4F6C-4DAE-B271-ADC9690FBD96
+amz-sdk-request:attempt=2; max=11
+host:s3.us-east-1.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20210929T114212Z
+
+[DEBUG] 2021-09-29 11:42:12.895 AWSAuthV4Signer [140206369923264] Signed Headers value:amz-sdk-invocation-id;amz-sdk-request;host;x-amz-content-sha256;x-amz-date
+[DEBUG] 2021-09-29 11:42:12.895 AWSAuthV4Signer [140206369923264] Canonical Request String: GET
+/
+
+amz-sdk-invocation-id:9D7E0B67-4F6C-4DAE-B271-ADC9690FBD96
+amz-sdk-request:attempt=2; max=11
+host:s3.us-east-1.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20210929T114212Z
+
+amz-sdk-invocation-id;amz-sdk-request;host;x-amz-content-sha256;x-amz-date
+UNSIGNED-PAYLOAD
+[DEBUG] 2021-09-29 11:42:12.895 AWSAuthV4Signer [140206369923264] Final String to sign: AWS4-HMAC-SHA256
+20210929T114212Z
+20210929/us-east-1/s3/aws4_request
+1be3ac854fc160bad52c4dcf54a2d835b5a36f29ea895b393259adf8dd518a1a
+[DEBUG] 2021-09-29 11:42:12.895 AWSAuthV4Signer [140206369923264] Final computed signing hash: fd958e298a0dc581e21f4e7a42a37b98d5696386d370c0dd8c4ec8e31073ffa2
+[DEBUG] 2021-09-29 11:42:12.895 AWSAuthV4Signer [140206369923264] Signing request with: AWS4-HMAC-SHA256 Credential=AKIAYMNKOGHN2VMCJN47/20210929/us-east-1/s3/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-request;host;x-amz-content-sha256;x-amz-date, Signature=fd958e298a0dc581e21f4e7a42a37b98d5696386d370c0dd8c4ec8e31073ffa2
+[DEBUG] 2021-09-29 11:42:12.895 AWSClient [140206369923264] Request Successfully signed
+[DEBUG] 2021-09-29 11:42:12.895 CurlHandleContainer [140206369923264] Attempting to acquire curl connection.
+[INFO] 2021-09-29 11:42:12.895 CurlHandleContainer [140206369923264] Connection has been released. Continuing.
+[DEBUG] 2021-09-29 11:42:12.895 CurlHandleContainer [140206369923264] Returning connection handle 0x55bf07d4c300
+[DEBUG] 2021-09-29 11:42:12.895 CurlHttpClient [140206369923264] Obtained connection handle 0x55bf07d4c300
+[DEBUG] 2021-09-29 11:42:12.919 CURL [140206369923264] (Text)   Trying 52.217.94.134:443...
+
+[DEBUG] 2021-09-29 11:42:12.919 CURL [140206369923264] (Text) TCP_NODELAY set
+
+[DEBUG] 2021-09-29 11:42:13.102 CURL [140206369923264] (Text) Connected to s3.us-east-1.amazonaws.com (52.217.94.134) port 443 (#0)
+
+[DEBUG] 2021-09-29 11:42:13.103 CURL [140206369923264] (Text) ALPN, offering h2
+
+[DEBUG] 2021-09-29 11:42:13.104 CURL [140206369923264] (Text) ALPN, offering http/1.1
+
+[DEBUG] 2021-09-29 11:42:13.115 CURL [140206369923264] (Text) successfully set certificate verify locations:
+
+[DEBUG] 2021-09-29 11:42:13.115 CURL [140206369923264] (Text)   CAfile: /etc/ssl/certs/ca-certificates.crt
+  CApath: /etc/ssl/certs
+
+[DEBUG] 2021-09-29 11:42:13.116 CURL [140206369923264] (SSLDataOut) 5bytes
+[DEBUG] 2021-09-29 11:42:13.116 CURL [140206369923264] (Text) TLSv1.3 (OUT), TLS handshake, Client hello (1):
+
+[DEBUG] 2021-09-29 11:42:13.116 CURL [140206369923264] (SSLDataOut) 512bytes
+[DEBUG] 2021-09-29 11:42:13.300 CURL [140206369923264] (SSLDataIn) 5bytes
+[DEBUG] 2021-09-29 11:42:13.300 CURL [140206369923264] (Text) TLSv1.3 (IN), TLS handshake, Server hello (2):
+
+[DEBUG] 2021-09-29 11:42:13.300 CURL [140206369923264] (SSLDataIn) 91bytes
+[DEBUG] 2021-09-29 11:42:13.300 CURL [140206369923264] (SSLDataIn) 5bytes
+[DEBUG] 2021-09-29 11:42:13.300 CURL [140206369923264] (Text) TLSv1.2 (IN), TLS handshake, Certificate (11):
+
+[DEBUG] 2021-09-29 11:42:13.300 CURL [140206369923264] (SSLDataIn) 3324bytes
+[DEBUG] 2021-09-29 11:42:13.301 CURL [140206369923264] (SSLDataIn) 5bytes
+[DEBUG] 2021-09-29 11:42:13.301 CURL [140206369923264] (Text) TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+
+[DEBUG] 2021-09-29 11:42:13.301 CURL [140206369923264] (SSLDataIn) 333bytes
+[DEBUG] 2021-09-29 11:42:13.301 CURL [140206369923264] (SSLDataIn) 5bytes
+[DEBUG] 2021-09-29 11:42:13.301 CURL [140206369923264] (Text) TLSv1.2 (IN), TLS handshake, Server finished (14):
+
+[DEBUG] 2021-09-29 11:42:13.301 CURL [140206369923264] (SSLDataIn) 4bytes
+[DEBUG] 2021-09-29 11:42:13.301 CURL [140206369923264] (SSLDataOut) 5bytes
+[DEBUG] 2021-09-29 11:42:13.302 CURL [140206369923264] (Text) TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+
+[DEBUG] 2021-09-29 11:42:13.302 CURL [140206369923264] (SSLDataOut) 70bytes
+[DEBUG] 2021-09-29 11:42:13.302 CURL [140206369923264] (SSLDataOut) 5bytes
+[DEBUG] 2021-09-29 11:42:13.302 CURL [140206369923264] (Text) TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):
+
+[DEBUG] 2021-09-29 11:42:13.302 CURL [140206369923264] (SSLDataOut) 1bytes
+[DEBUG] 2021-09-29 11:42:13.302 CURL [140206369923264] (SSLDataOut) 5bytes
+[DEBUG] 2021-09-29 11:42:13.302 CURL [140206369923264] (Text) TLSv1.2 (OUT), TLS handshake, Finished (20):
+
+[DEBUG] 2021-09-29 11:42:13.302 CURL [140206369923264] (SSLDataOut) 16bytes
+[DEBUG] 2021-09-29 11:42:13.485 CURL [140206369923264] (SSLDataIn) 5bytes
+[DEBUG] 2021-09-29 11:42:13.485 CURL [140206369923264] (SSLDataIn) 5bytes
+[DEBUG] 2021-09-29 11:42:13.485 CURL [140206369923264] (Text) TLSv1.2 (IN), TLS handshake, Finished (20):
+
+[DEBUG] 2021-09-29 11:42:13.485 CURL [140206369923264] (SSLDataIn) 16bytes
+[DEBUG] 2021-09-29 11:42:13.485 CURL [140206369923264] (Text) SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+
+[DEBUG] 2021-09-29 11:42:13.485 CURL [140206369923264] (Text) ALPN, server did not agree to a protocol
+
+[DEBUG] 2021-09-29 11:42:13.486 CURL [140206369923264] (Text) Server certificate:
+
+[DEBUG] 2021-09-29 11:42:13.486 CURL [140206369923264] (Text)  subject: C=US; ST=Washington; L=Seattle; O=Amazon.com, Inc.; CN=s3.amazonaws.com
+
+[DEBUG] 2021-09-29 11:42:13.486 CURL [140206369923264] (Text)  start date: Jun 23 00:00:00 2021 GMT
+
+[DEBUG] 2021-09-29 11:42:13.486 CURL [140206369923264] (Text)  expire date: Jul 24 23:59:59 2022 GMT
+
+[DEBUG] 2021-09-29 11:42:13.486 CURL [140206369923264] (Text)  subjectAltName: host "s3.us-east-1.amazonaws.com" matched cert's "s3.us-east-1.amazonaws.com"
+
+[DEBUG] 2021-09-29 11:42:13.486 CURL [140206369923264] (Text)  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=DigiCert Baltimore CA-2 G2
+
+[DEBUG] 2021-09-29 11:42:13.486 CURL [140206369923264] (Text)  SSL certificate verify ok.
+
+[DEBUG] 2021-09-29 11:42:13.486 CURL [140206369923264] (SSLDataOut) 5bytes
+[DEBUG] 2021-09-29 11:42:13.486 CURL [140206369923264] (HeaderOut) GET / HTTP/1.1
+Host: s3.us-east-1.amazonaws.com
+Accept: */*
+amz-sdk-invocation-id: 9D7E0B67-4F6C-4DAE-B271-ADC9690FBD96
+amz-sdk-request: attempt=2; max=11
+authorization: AWS4-HMAC-SHA256 Credential=AKIAYMNKOGHN2VMCJN47/20210929/us-east-1/s3/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-request;host;x-amz-content-sha256;x-amz-date, Signature=fd958e298a0dc581e21f4e7a42a37b98d5696386d370c0dd8c4ec8e31073ffa2
+user-agent: aws-sdk-cpp/1.9.108 Linux/5.4.72-microsoft-standard-WSL2 x86_64 GCC/9.3.0
+x-amz-content-sha256: UNSIGNED-PAYLOAD
+x-amz-date: 20210929T114212Z
+
+
+[DEBUG] 2021-09-29 11:42:13.730 CURL [140206369923264] (SSLDataIn) 5bytes
+[DEBUG] 2021-09-29 11:42:13.730 CURL [140206369923264] (Text) Mark bundle as not supporting multiuse
+
+[DEBUG] 2021-09-29 11:42:13.730 CURL [140206369923264] (HeaderIn) HTTP/1.1 200 OK
+
+[DEBUG] 2021-09-29 11:42:13.730 CURL [140206369923264] (HeaderIn) x-amz-id-2: IhjmyBYtVLq78+9takCURTaZuF0Rm/J7hE6S82oX4mok+I6vykjJ4hHsljHVs99Zl2+92XuO/sQ=
+
+[DEBUG] 2021-09-29 11:42:13.730 CURL [140206369923264] (HeaderIn) x-amz-request-id: 8GZKVT1E3HC2RC78
+
+[DEBUG] 2021-09-29 11:42:13.730 CURL [140206369923264] (HeaderIn) Date: Wed, 29 Sep 2021 11:42:13 GMT
+
+[DEBUG] 2021-09-29 11:42:13.730 CURL [140206369923264] (HeaderIn) Content-Type: application/xml
+
+[DEBUG] 2021-09-29 11:42:13.730 CURL [140206369923264] (HeaderIn) Transfer-Encoding: chunked
+
+[DEBUG] 2021-09-29 11:42:13.730 CURL [140206369923264] (HeaderIn) Server: AmazonS3
+
+[DEBUG] 2021-09-29 11:42:13.730 CURL [140206369923264] (HeaderIn) 
+
+[DEBUG] 2021-09-29 11:42:13.730 CURL [140206369923264] (SSLDataIn) 5bytes
+[DEBUG] 2021-09-29 11:42:13.730 CURL [140206369923264] (DataIn) 10f
+<?xml version="1.0" encoding="UTF-8"?>
+<ListAllMyBucketsResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Owner><ID>45f0ca1519d305ce4d82b35657c46ffcc619f9caa8d2ced683839fd9b16080bf</ID><DisplayName>hamzaryzvy</DisplayName></Owner><Buckets/></ListAllMyBucketsResult>
+
+[DEBUG] 2021-09-29 11:42:13.730 CURL [140206369923264] (SSLDataIn) 5bytes
+[DEBUG] 2021-09-29 11:42:13.730 CURL [140206369923264] (DataIn) 0
+
+
+[DEBUG] 2021-09-29 11:42:13.730 CURL [140206369923264] (Text) Connection #0 to host s3.us-east-1.amazonaws.com left intact
+
+[DEBUG] 2021-09-29 11:42:13.730 CurlHttpClient [140206369923264] Returned http response code 200
+[DEBUG] 2021-09-29 11:42:13.730 CurlHttpClient [140206369923264] Returned content type application/xml
+[DEBUG] 2021-09-29 11:42:13.730 CurlHttpClient [140206369923264] Releasing curl handle 0x55bf07d4c300
+[DEBUG] 2021-09-29 11:42:13.730 CurlHandleContainer [140206369923264] Releasing curl handle 0x55bf07d4c300
+[DEBUG] 2021-09-29 11:42:13.731 CurlHandleContainer [140206369923264] Notified waiting threads.
+[DEBUG] 2021-09-29 11:42:13.731 AWSClient [140206369923264] Request returned successful response.
+[INFO] 2021-09-29 11:42:13.732 CurlHandleContainer [140206369923264] Cleaning up CurlHandleContainer.
+[DEBUG] 2021-09-29 11:42:13.732 CurlHandleContainer [140206369923264] Cleaning up 0x55bf07d43910
+[DEBUG] 2021-09-29 11:42:13.732 CurlHandleContainer [140206369923264] Cleaning up 0x55bf07d4c300
+[INFO] 2021-09-29 11:42:13.733 CurlHandleContainer [140206369923264] Cleaning up CurlHandleContainer.
+[DEBUG] 2021-09-29 11:42:13.733 CurlHandleContainer [140206369923264] Cleaning up 0x55bf07d359d0
+[DEBUG] 2021-09-29 11:42:13.733 CurlHandleContainer [140206369923264] Cleaning up 0x55bf07d3b170
+[INFO] 2021-09-29 11:53:21.894 Aws_Init_Cleanup [139686213267648] Initiate AWS SDK for C++ with Version:1.9.108
+[DEBUG] 2021-09-29 11:53:21.894 FileSystemUtils [139686213267648] Environment value for variable HOME is /home/hamza
+[DEBUG] 2021-09-29 11:53:21.894 FileSystemUtils [139686213267648] Home directory is missing the final / appending one to normalize
+[DEBUG] 2021-09-29 11:53:21.894 FileSystemUtils [139686213267648] Final Home Directory is /home/hamza/
+[INFO] 2021-09-29 11:53:21.894 Aws::Config::AWSConfigFileProfileConfigLoader [139686213267648] Initializing config loader against fileName /home/hamza/.aws/credentials and using profilePrefix = 0
+[DEBUG] 2021-09-29 11:53:21.894 FileSystemUtils [139686213267648] Environment value for variable HOME is /home/hamza
+[DEBUG] 2021-09-29 11:53:21.894 FileSystemUtils [139686213267648] Home directory is missing the final / appending one to normalize
+[DEBUG] 2021-09-29 11:53:21.894 FileSystemUtils [139686213267648] Final Home Directory is /home/hamza/
+[INFO] 2021-09-29 11:53:21.894 Aws::Config::AWSConfigFileProfileConfigLoader [139686213267648] Initializing config loader against fileName /home/hamza/.aws/config and using profilePrefix = 1
+[DEBUG] 2021-09-29 11:53:21.894 FileSystemUtils [139686213267648] Environment value for variable HOME is /home/hamza
+[DEBUG] 2021-09-29 11:53:21.894 FileSystemUtils [139686213267648] Home directory is missing the final / appending one to normalize
+[DEBUG] 2021-09-29 11:53:21.894 FileSystemUtils [139686213267648] Final Home Directory is /home/hamza/
+[DEBUG] 2021-09-29 11:53:21.898 Aws::Config::ConfigFileProfileFSM [139686213267648] found profile default
+[DEBUG] 2021-09-29 11:53:21.899 Aws::Config::ConfigFileProfileFSM [139686213267648] found access key AKIAYMNKOGHN2VMCJN47
+[INFO] 2021-09-29 11:53:21.901 Aws::Config::AWSProfileConfigLoader [139686213267648] Successfully reloaded configuration.
+[DEBUG] 2021-09-29 11:53:21.901 FileSystemUtils [139686213267648] Environment value for variable HOME is /home/hamza
+[DEBUG] 2021-09-29 11:53:21.901 FileSystemUtils [139686213267648] Home directory is missing the final / appending one to normalize
+[DEBUG] 2021-09-29 11:53:21.901 FileSystemUtils [139686213267648] Final Home Directory is /home/hamza/
+[INFO] 2021-09-29 11:53:21.903 Aws::Config::AWSConfigFileProfileConfigLoader [139686213267648] Unable to open config file /home/hamza/.aws/config for reading.
+[INFO] 2021-09-29 11:53:21.903 Aws::Config::AWSProfileConfigLoader [139686213267648] Failed to reload configuration.
+[INFO] 2021-09-29 11:53:21.904 event-loop [139686213267648] id=0x563ba4b885a0: Initializing edge-triggered epoll
+[INFO] 2021-09-29 11:53:21.904 event-loop [139686213267648] id=0x563ba4b885a0: Using eventfd for cross-thread notifications.
+[INFO] 2021-09-29 11:53:21.904 event-loop [139686213267648] id=0x563ba4b885a0: Starting event-loop thread.
+[INFO] 2021-09-29 11:53:21.904 event-loop [139686213267648] id=0x563ba4b65fb0: Initializing edge-triggered epoll
+[INFO] 2021-09-29 11:53:21.904 event-loop [139686213267648] id=0x563ba4b65fb0: Using eventfd for cross-thread notifications.
+[INFO] 2021-09-29 11:53:21.904 event-loop [139686213267648] id=0x563ba4b65fb0: Starting event-loop thread.
+[INFO] 2021-09-29 11:53:21.904 event-loop [139686204860160] id=0x563ba4b885a0: main loop started
+[INFO] 2021-09-29 11:53:21.904 event-loop [139686204860160] id=0x563ba4b885a0: default timeout 100000, and max events to process per tick 100
+[INFO] 2021-09-29 11:53:21.904 dns [139686213267648] id=0x563ba4b8ccd0: Initializing default host resolver with 8 max host entries.
+[INFO] 2021-09-29 11:53:21.904 event-loop [139686196467456] id=0x563ba4b65fb0: main loop started
+[INFO] 2021-09-29 11:53:21.904 event-loop [139686196467456] id=0x563ba4b65fb0: default timeout 100000, and max events to process per tick 100
+[INFO] 2021-09-29 11:53:21.904 channel-bootstrap [139686213267648] id=0x563ba4b8d1b0: Initializing client bootstrap with event-loop group 0x563ba4b8d430
+[INFO] 2021-09-29 11:53:21.928 CurlHttpClient [139686213267648] Initializing Curl library with version: 7.68.0, ssl version: OpenSSL/1.1.1f
+[INFO] 2021-09-29 11:53:21.929 EC2MetadataClient [139686213267648] Using IMDS endpoint: http://169.254.169.254
+[DEBUG] 2021-09-29 11:53:21.929 ClientConfiguration [139686213267648] ClientConfiguration will use SDK Auto Resolved profile: [default] if not specified by users.
+[WARN] 2021-09-29 11:53:21.929 ClientConfiguration [139686213267648] Retry Strategy will use the default max attempts.
+[INFO] 2021-09-29 11:53:21.929 EC2MetadataClient [139686213267648] Creating AWSHttpResourceClient with max connections 2 and scheme http
+[INFO] 2021-09-29 11:53:21.929 CurlHandleContainer [139686213267648] Initializing CurlHandleContainer with size 2
+[DEBUG] 2021-09-29 11:53:21.929 ClientConfiguration [139686213267648] ClientConfiguration will use SDK Auto Resolved profile: [default] if not specified by users.
+[WARN] 2021-09-29 11:53:21.929 ClientConfiguration [139686213267648] Retry Strategy will use the default max attempts.
+[DEBUG] 2021-09-29 11:53:21.930 CurlHandleContainer [139686213267648] Attempting to acquire curl connection.
+[DEBUG] 2021-09-29 11:53:21.930 CurlHandleContainer [139686213267648] No current connections available in pool. Attempting to create new connections.
+[DEBUG] 2021-09-29 11:53:21.930 CurlHandleContainer [139686213267648] attempting to grow pool size by 2
+[INFO] 2021-09-29 11:53:21.930 CurlHandleContainer [139686213267648] Pool grown by 2
+[INFO] 2021-09-29 11:53:21.930 CurlHandleContainer [139686213267648] Connection has been released. Continuing.
+[DEBUG] 2021-09-29 11:53:21.930 CurlHandleContainer [139686213267648] Returning connection handle 0x563ba4c50170
+[DEBUG] 2021-09-29 11:53:21.930 CurlHttpClient [139686213267648] Obtained connection handle 0x563ba4c50170
+[DEBUG] 2021-09-29 11:53:21.930 CURL [139686213267648] (Text)   Trying 169.254.169.254:80...
+
+[DEBUG] 2021-09-29 11:53:21.930 CURL [139686213267648] (Text) TCP_NODELAY set
+
+[DEBUG] 2021-09-29 11:53:22.932 CURL [139686213267648] (Text) Connection timed out after 1000 milliseconds
+
+[DEBUG] 2021-09-29 11:53:22.932 CURL [139686213267648] (Text) Closing connection 0
+
+[ERROR] 2021-09-29 11:53:22.932 CurlHttpClient [139686213267648] Curl returned error code 28 - Timeout was reached
+[DEBUG] 2021-09-29 11:53:22.932 CurlHandleContainer [139686213267648] Destroy curl handle: 0x563ba4c50170
+[DEBUG] 2021-09-29 11:53:22.933 CurlHandleContainer [139686213267648] Created replacement handle and released to pool: 0x563ba4c50170
+[ERROR] 2021-09-29 11:53:22.933 EC2MetadataClient [139686213267648] Http request to retrieve credentials failed
+[WARN] 2021-09-29 11:53:22.933 EC2MetadataClient [139686213267648] Request failed, now waiting 0 ms before attempting again.
+[DEBUG] 2021-09-29 11:53:22.936 CurlHandleContainer [139686213267648] Attempting to acquire curl connection.
+[INFO] 2021-09-29 11:53:22.936 CurlHandleContainer [139686213267648] Connection has been released. Continuing.
+[DEBUG] 2021-09-29 11:53:22.936 CurlHandleContainer [139686213267648] Returning connection handle 0x563ba4c50170
+[DEBUG] 2021-09-29 11:53:22.936 CurlHttpClient [139686213267648] Obtained connection handle 0x563ba4c50170
+[DEBUG] 2021-09-29 11:53:22.938 CURL [139686213267648] (Text)   Trying 169.254.169.254:80...
+
+[DEBUG] 2021-09-29 11:53:22.938 CURL [139686213267648] (Text) TCP_NODELAY set
+
+[DEBUG] 2021-09-29 11:53:23.938 CURL [139686213267648] (Text) Connection timed out after 1000 milliseconds
+
+[DEBUG] 2021-09-29 11:53:23.938 CURL [139686213267648] (Text) Closing connection 0
+
+[ERROR] 2021-09-29 11:53:23.938 CurlHttpClient [139686213267648] Curl returned error code 28 - Timeout was reached
+[DEBUG] 2021-09-29 11:53:23.938 CurlHandleContainer [139686213267648] Destroy curl handle: 0x563ba4c50170
+[DEBUG] 2021-09-29 11:53:23.938 CurlHandleContainer [139686213267648] Created replacement handle and released to pool: 0x563ba4c50170
+[ERROR] 2021-09-29 11:53:23.938 EC2MetadataClient [139686213267648] Http request to retrieve credentials failed
+[ERROR] 2021-09-29 11:53:23.938 EC2MetadataClient [139686213267648] Can not retrieve resource from http://169.254.169.254/latest/meta-data/placement/availability-zone
+[INFO] 2021-09-29 11:53:23.938 EC2MetadataClient [139686213267648] Unable to pull region from instance metadata service 
+[DEBUG] 2021-09-29 11:53:23.938 FileSystemUtils [139686213267648] Environment value for variable HOME is /home/hamza
+[DEBUG] 2021-09-29 11:53:23.938 FileSystemUtils [139686213267648] Home directory is missing the final / appending one to normalize
+[DEBUG] 2021-09-29 11:53:23.938 FileSystemUtils [139686213267648] Final Home Directory is /home/hamza/
+[INFO] 2021-09-29 11:53:23.938 Aws::Config::AWSConfigFileProfileConfigLoader [139686213267648] Initializing config loader against fileName /home/hamza/.aws/credentials and using profilePrefix = 0
+[DEBUG] 2021-09-29 11:53:23.938 FileSystemUtils [139686213267648] Environment value for variable HOME is /home/hamza
+[DEBUG] 2021-09-29 11:53:23.938 FileSystemUtils [139686213267648] Home directory is missing the final / appending one to normalize
+[DEBUG] 2021-09-29 11:53:23.938 FileSystemUtils [139686213267648] Final Home Directory is /home/hamza/
+[DEBUG] 2021-09-29 11:53:23.938 FileSystemUtils [139686213267648] Environment value for variable HOME is /home/hamza
+[DEBUG] 2021-09-29 11:53:23.938 FileSystemUtils [139686213267648] Home directory is missing the final / appending one to normalize
+[DEBUG] 2021-09-29 11:53:23.938 FileSystemUtils [139686213267648] Final Home Directory is /home/hamza/
+[INFO] 2021-09-29 11:53:23.938 ProfileConfigFileAWSCredentialsProvider [139686213267648] Setting provider to read credentials from /home/hamza/.aws/credentials for credentials file and /home/hamza/.aws/config for the config file , for use with profile default
+[INFO] 2021-09-29 11:53:23.938 ProcessCredentialsProvider [139686213267648] Setting process credentials provider to read config from default
+[WARN] 2021-09-29 11:53:23.939 STSAssumeRoleWithWebIdentityCredentialsProvider [139686213267648] Token file must be specified to use STS AssumeRole web identity creds provider.
+[INFO] 2021-09-29 11:53:23.939 SSOCredentialsProvider [139686213267648] Setting sso credentials provider to read config from default
+[DEBUG] 2021-09-29 11:53:23.939 DefaultAWSCredentialsProviderChain [139686213267648] The environment variable value AWS_CONTAINER_CREDENTIALS_RELATIVE_URI is 
+[DEBUG] 2021-09-29 11:53:23.939 DefaultAWSCredentialsProviderChain [139686213267648] The environment variable value AWS_CONTAINER_CREDENTIALS_FULL_URI is 
+[DEBUG] 2021-09-29 11:53:23.939 DefaultAWSCredentialsProviderChain [139686213267648] The environment variable value AWS_EC2_METADATA_DISABLED is 
+[INFO] 2021-09-29 11:53:23.939 InstanceProfileCredentialsProvider [139686213267648] Creating Instance with default EC2MetadataClient and refresh rate 300000
+[INFO] 2021-09-29 11:53:23.939 DefaultAWSCredentialsProviderChain [139686213267648] Added EC2 metadata service credentials provider to the provider chain.
+[DEBUG] 2021-09-29 11:53:24.040 Aws::Config::ConfigFileProfileFSM [139686213267648] found profile default
+[DEBUG] 2021-09-29 11:53:24.071 Aws::Config::ConfigFileProfileFSM [139686213267648] found access key AKIAYMNKOGHN2VMCJN47
+[INFO] 2021-09-29 11:53:24.103 Aws::Config::AWSProfileConfigLoader [139686213267648] Successfully reloaded configuration.
+[INFO] 2021-09-29 11:53:24.104 CurlHandleContainer [139686213267648] Initializing CurlHandleContainer with size 25
+[DEBUG] 2021-09-29 11:53:24.104 AWSAuthV4Signer [139686213267648] Note: Http payloads are not being signed. signPayloads=0 http scheme=https
+[DEBUG] 2021-09-29 11:53:24.105 AWSAuthV4Signer [139686213267648] Canonical Header String: amz-sdk-invocation-id:AFE2094B-90B6-4983-BD7C-8022E5749CCA
+amz-sdk-request:attempt=1
+host:s3.us-east-1.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20210929T115324Z
+
+[DEBUG] 2021-09-29 11:53:24.105 AWSAuthV4Signer [139686213267648] Signed Headers value:amz-sdk-invocation-id;amz-sdk-request;host;x-amz-content-sha256;x-amz-date
+[DEBUG] 2021-09-29 11:53:24.105 AWSAuthV4Signer [139686213267648] Canonical Request String: GET
+/
+
+amz-sdk-invocation-id:AFE2094B-90B6-4983-BD7C-8022E5749CCA
+amz-sdk-request:attempt=1
+host:s3.us-east-1.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20210929T115324Z
+
+amz-sdk-invocation-id;amz-sdk-request;host;x-amz-content-sha256;x-amz-date
+UNSIGNED-PAYLOAD
+[DEBUG] 2021-09-29 11:53:24.105 AWSAuthV4Signer [139686213267648] Final String to sign: AWS4-HMAC-SHA256
+20210929T115324Z
+20210929/us-east-1/s3/aws4_request
+d4429994e05b14ecd10ace5d2fc906166299d7a5e6d5379d7fa7deb5f94740b6
+[DEBUG] 2021-09-29 11:53:24.105 AWSAuthV4Signer [139686213267648] Final computed signing hash: dd61e37c9c411b150bee5dc7075da0ae8f7f410b61770633c733ee2eb2b4d024
+[DEBUG] 2021-09-29 11:53:24.105 AWSAuthV4Signer [139686213267648] Signing request with: AWS4-HMAC-SHA256 Credential=AKIAYMNKOGHN2VMCJN47/20210929/us-east-1/s3/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-request;host;x-amz-content-sha256;x-amz-date, Signature=dd61e37c9c411b150bee5dc7075da0ae8f7f410b61770633c733ee2eb2b4d024
+[DEBUG] 2021-09-29 11:53:24.105 AWSClient [139686213267648] Request Successfully signed
+[DEBUG] 2021-09-29 11:53:24.105 CurlHandleContainer [139686213267648] Attempting to acquire curl connection.
+[DEBUG] 2021-09-29 11:53:24.105 CurlHandleContainer [139686213267648] No current connections available in pool. Attempting to create new connections.
+[DEBUG] 2021-09-29 11:53:24.105 CurlHandleContainer [139686213267648] attempting to grow pool size by 2
+[INFO] 2021-09-29 11:53:24.105 CurlHandleContainer [139686213267648] Pool grown by 2
+[INFO] 2021-09-29 11:53:24.105 CurlHandleContainer [139686213267648] Connection has been released. Continuing.
+[DEBUG] 2021-09-29 11:53:24.105 CurlHandleContainer [139686213267648] Returning connection handle 0x563ba4c61300
+[DEBUG] 2021-09-29 11:53:24.105 CurlHttpClient [139686213267648] Obtained connection handle 0x563ba4c61300
+[DEBUG] 2021-09-29 11:53:25.106 CURL [139686213267648] (Text) Resolving timed out after 1000 milliseconds
+
+[DEBUG] 2021-09-29 11:53:25.132 CURL [139686213267648] (Text) Closing connection 0
+
+[ERROR] 2021-09-29 11:53:25.132 CurlHttpClient [139686213267648] Curl returned error code 28 - Timeout was reached
+[DEBUG] 2021-09-29 11:53:25.132 CurlHandleContainer [139686213267648] Destroy curl handle: 0x563ba4c61300
+[DEBUG] 2021-09-29 11:53:25.132 CurlHandleContainer [139686213267648] Created replacement handle and released to pool: 0x563ba4c61300
+[DEBUG] 2021-09-29 11:53:25.132 AWSClient [139686213267648] Request returned error. Attempting to generate appropriate error codes from response
+[ERROR] 2021-09-29 11:53:25.132 AWSClient [139686213267648] HTTP response code: -1
+Resolved remote host IP address: 
+Request ID: 
+Exception name: 
+Error message: curlCode: 28, Timeout was reached
+0 response headers:
+[WARN] 2021-09-29 11:53:25.132 AWSClient [139686213267648] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[DEBUG] 2021-09-29 11:53:25.132 AWSClient [139686213267648] Date header was not found in the response, can't attempt to detect clock skew
+[WARN] 2021-09-29 11:53:25.132 AWSClient [139686213267648] Request failed, now waiting 0 ms before attempting again.
+[DEBUG] 2021-09-29 11:53:25.133 AWSAuthV4Signer [139686213267648] Note: Http payloads are not being signed. signPayloads=0 http scheme=https
+[DEBUG] 2021-09-29 11:53:25.133 AWSAuthV4Signer [139686213267648] Canonical Header String: amz-sdk-invocation-id:AFE2094B-90B6-4983-BD7C-8022E5749CCA
+amz-sdk-request:attempt=2; max=11
+host:s3.us-east-1.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20210929T115325Z
+
+[DEBUG] 2021-09-29 11:53:25.133 AWSAuthV4Signer [139686213267648] Signed Headers value:amz-sdk-invocation-id;amz-sdk-request;host;x-amz-content-sha256;x-amz-date
+[DEBUG] 2021-09-29 11:53:25.133 AWSAuthV4Signer [139686213267648] Canonical Request String: GET
+/
+
+amz-sdk-invocation-id:AFE2094B-90B6-4983-BD7C-8022E5749CCA
+amz-sdk-request:attempt=2; max=11
+host:s3.us-east-1.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20210929T115325Z
+
+amz-sdk-invocation-id;amz-sdk-request;host;x-amz-content-sha256;x-amz-date
+UNSIGNED-PAYLOAD
+[DEBUG] 2021-09-29 11:53:25.133 AWSAuthV4Signer [139686213267648] Final String to sign: AWS4-HMAC-SHA256
+20210929T115325Z
+20210929/us-east-1/s3/aws4_request
+c6088487a52c44a20c59dfa55ee0107d502e33e9f1418f5915fda0c4c0536126
+[DEBUG] 2021-09-29 11:53:25.133 AWSAuthV4Signer [139686213267648] Final computed signing hash: dd19c4753aeb94407238a8cc0d7599d8eb82bd84a98e96341bdedd6beace7122
+[DEBUG] 2021-09-29 11:53:25.133 AWSAuthV4Signer [139686213267648] Signing request with: AWS4-HMAC-SHA256 Credential=AKIAYMNKOGHN2VMCJN47/20210929/us-east-1/s3/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-request;host;x-amz-content-sha256;x-amz-date, Signature=dd19c4753aeb94407238a8cc0d7599d8eb82bd84a98e96341bdedd6beace7122
+[DEBUG] 2021-09-29 11:53:25.133 AWSClient [139686213267648] Request Successfully signed
+[DEBUG] 2021-09-29 11:53:25.133 CurlHandleContainer [139686213267648] Attempting to acquire curl connection.
+[INFO] 2021-09-29 11:53:25.133 CurlHandleContainer [139686213267648] Connection has been released. Continuing.
+[DEBUG] 2021-09-29 11:53:25.133 CurlHandleContainer [139686213267648] Returning connection handle 0x563ba4c61300
+[DEBUG] 2021-09-29 11:53:25.133 CurlHttpClient [139686213267648] Obtained connection handle 0x563ba4c61300
+[DEBUG] 2021-09-29 11:53:25.193 CURL [139686213267648] (Text)   Trying 52.217.81.38:443...
+
+[DEBUG] 2021-09-29 11:53:25.193 CURL [139686213267648] (Text) TCP_NODELAY set
+
+[DEBUG] 2021-09-29 11:53:25.377 CURL [139686213267648] (Text) Connected to s3.us-east-1.amazonaws.com (52.217.81.38) port 443 (#0)
+
+[DEBUG] 2021-09-29 11:53:25.378 CURL [139686213267648] (Text) ALPN, offering h2
+
+[DEBUG] 2021-09-29 11:53:25.378 CURL [139686213267648] (Text) ALPN, offering http/1.1
+
+[DEBUG] 2021-09-29 11:53:25.389 CURL [139686213267648] (Text) successfully set certificate verify locations:
+
+[DEBUG] 2021-09-29 11:53:25.389 CURL [139686213267648] (Text)   CAfile: /etc/ssl/certs/ca-certificates.crt
+  CApath: /etc/ssl/certs
+
+[DEBUG] 2021-09-29 11:53:25.390 CURL [139686213267648] (SSLDataOut) 5bytes
+[DEBUG] 2021-09-29 11:53:25.390 CURL [139686213267648] (Text) TLSv1.3 (OUT), TLS handshake, Client hello (1):
+
+[DEBUG] 2021-09-29 11:53:25.390 CURL [139686213267648] (SSLDataOut) 512bytes
+[DEBUG] 2021-09-29 11:53:25.576 CURL [139686213267648] (SSLDataIn) 5bytes
+[DEBUG] 2021-09-29 11:53:25.576 CURL [139686213267648] (Text) TLSv1.3 (IN), TLS handshake, Server hello (2):
+
+[DEBUG] 2021-09-29 11:53:25.576 CURL [139686213267648] (SSLDataIn) 91bytes
+[DEBUG] 2021-09-29 11:53:25.576 CURL [139686213267648] (SSLDataIn) 5bytes
+[DEBUG] 2021-09-29 11:53:25.576 CURL [139686213267648] (Text) TLSv1.2 (IN), TLS handshake, Certificate (11):
+
+[DEBUG] 2021-09-29 11:53:25.576 CURL [139686213267648] (SSLDataIn) 3324bytes
+[DEBUG] 2021-09-29 11:53:25.578 CURL [139686213267648] (SSLDataIn) 5bytes
+[DEBUG] 2021-09-29 11:53:25.578 CURL [139686213267648] (Text) TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+
+[DEBUG] 2021-09-29 11:53:25.578 CURL [139686213267648] (SSLDataIn) 333bytes
+[DEBUG] 2021-09-29 11:53:25.578 CURL [139686213267648] (SSLDataIn) 5bytes
+[DEBUG] 2021-09-29 11:53:25.578 CURL [139686213267648] (Text) TLSv1.2 (IN), TLS handshake, Server finished (14):
+
+[DEBUG] 2021-09-29 11:53:25.578 CURL [139686213267648] (SSLDataIn) 4bytes
+[DEBUG] 2021-09-29 11:53:25.579 CURL [139686213267648] (SSLDataOut) 5bytes
+[DEBUG] 2021-09-29 11:53:25.579 CURL [139686213267648] (Text) TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+
+[DEBUG] 2021-09-29 11:53:25.579 CURL [139686213267648] (SSLDataOut) 70bytes
+[DEBUG] 2021-09-29 11:53:25.579 CURL [139686213267648] (SSLDataOut) 5bytes
+[DEBUG] 2021-09-29 11:53:25.579 CURL [139686213267648] (Text) TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):
+
+[DEBUG] 2021-09-29 11:53:25.579 CURL [139686213267648] (SSLDataOut) 1bytes
+[DEBUG] 2021-09-29 11:53:25.579 CURL [139686213267648] (SSLDataOut) 5bytes
+[DEBUG] 2021-09-29 11:53:25.579 CURL [139686213267648] (Text) TLSv1.2 (OUT), TLS handshake, Finished (20):
+
+[DEBUG] 2021-09-29 11:53:25.579 CURL [139686213267648] (SSLDataOut) 16bytes
+[DEBUG] 2021-09-29 11:53:25.762 CURL [139686213267648] (SSLDataIn) 5bytes
+[DEBUG] 2021-09-29 11:53:25.762 CURL [139686213267648] (SSLDataIn) 5bytes
+[DEBUG] 2021-09-29 11:53:25.762 CURL [139686213267648] (Text) TLSv1.2 (IN), TLS handshake, Finished (20):
+
+[DEBUG] 2021-09-29 11:53:25.762 CURL [139686213267648] (SSLDataIn) 16bytes
+[DEBUG] 2021-09-29 11:53:25.762 CURL [139686213267648] (Text) SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+
+[DEBUG] 2021-09-29 11:53:25.762 CURL [139686213267648] (Text) ALPN, server did not agree to a protocol
+
+[DEBUG] 2021-09-29 11:53:25.762 CURL [139686213267648] (Text) Server certificate:
+
+[DEBUG] 2021-09-29 11:53:25.762 CURL [139686213267648] (Text)  subject: C=US; ST=Washington; L=Seattle; O=Amazon.com, Inc.; CN=s3.amazonaws.com
+
+[DEBUG] 2021-09-29 11:53:25.762 CURL [139686213267648] (Text)  start date: Jun 23 00:00:00 2021 GMT
+
+[DEBUG] 2021-09-29 11:53:25.762 CURL [139686213267648] (Text)  expire date: Jul 24 23:59:59 2022 GMT
+
+[DEBUG] 2021-09-29 11:53:25.762 CURL [139686213267648] (Text)  subjectAltName: host "s3.us-east-1.amazonaws.com" matched cert's "s3.us-east-1.amazonaws.com"
+
+[DEBUG] 2021-09-29 11:53:25.762 CURL [139686213267648] (Text)  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=DigiCert Baltimore CA-2 G2
+
+[DEBUG] 2021-09-29 11:53:25.762 CURL [139686213267648] (Text)  SSL certificate verify ok.
+
+[DEBUG] 2021-09-29 11:53:25.762 CURL [139686213267648] (SSLDataOut) 5bytes
+[DEBUG] 2021-09-29 11:53:25.762 CURL [139686213267648] (HeaderOut) GET / HTTP/1.1
+Host: s3.us-east-1.amazonaws.com
+Accept: */*
+amz-sdk-invocation-id: AFE2094B-90B6-4983-BD7C-8022E5749CCA
+amz-sdk-request: attempt=2; max=11
+authorization: AWS4-HMAC-SHA256 Credential=AKIAYMNKOGHN2VMCJN47/20210929/us-east-1/s3/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-request;host;x-amz-content-sha256;x-amz-date, Signature=dd19c4753aeb94407238a8cc0d7599d8eb82bd84a98e96341bdedd6beace7122
+user-agent: aws-sdk-cpp/1.9.108 Linux/5.4.72-microsoft-standard-WSL2 x86_64 GCC/9.3.0
+x-amz-content-sha256: UNSIGNED-PAYLOAD
+x-amz-date: 20210929T115325Z
+
+
+[DEBUG] 2021-09-29 11:53:25.978 CURL [139686213267648] (SSLDataIn) 5bytes
+[DEBUG] 2021-09-29 11:53:25.978 CURL [139686213267648] (Text) Mark bundle as not supporting multiuse
+
+[DEBUG] 2021-09-29 11:53:25.978 CURL [139686213267648] (HeaderIn) HTTP/1.1 200 OK
+
+[DEBUG] 2021-09-29 11:53:25.978 CURL [139686213267648] (HeaderIn) x-amz-id-2: HXEv1sx37UG+uD6DcXahurpq4i2Pezz/QaU92VxEUbR5Tg1QTNMrMuDR5F3kYI2XWB/I3Xbuxkc=
+
+[DEBUG] 2021-09-29 11:53:25.978 CURL [139686213267648] (HeaderIn) x-amz-request-id: PYPNFET5KXKMRV8R
+
+[DEBUG] 2021-09-29 11:53:25.978 CURL [139686213267648] (HeaderIn) Date: Wed, 29 Sep 2021 11:53:26 GMT
+
+[DEBUG] 2021-09-29 11:53:25.978 CURL [139686213267648] (HeaderIn) Content-Type: application/xml
+
+[DEBUG] 2021-09-29 11:53:25.978 CURL [139686213267648] (HeaderIn) Transfer-Encoding: chunked
+
+[DEBUG] 2021-09-29 11:53:25.978 CURL [139686213267648] (HeaderIn) Server: AmazonS3
+
+[DEBUG] 2021-09-29 11:53:25.978 CURL [139686213267648] (HeaderIn) 
+
+[DEBUG] 2021-09-29 11:53:25.978 CURL [139686213267648] (SSLDataIn) 5bytes
+[DEBUG] 2021-09-29 11:53:25.978 CURL [139686213267648] (DataIn) 10f
+<?xml version="1.0" encoding="UTF-8"?>
+<ListAllMyBucketsResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Owner><ID>45f0ca1519d305ce4d82b35657c46ffcc619f9caa8d2ced683839fd9b16080bf</ID><DisplayName>hamzaryzvy</DisplayName></Owner><Buckets/></ListAllMyBucketsResult>
+0
+
+
+[DEBUG] 2021-09-29 11:53:25.978 CURL [139686213267648] (Text) Connection #0 to host s3.us-east-1.amazonaws.com left intact
+
+[DEBUG] 2021-09-29 11:53:25.978 CurlHttpClient [139686213267648] Returned http response code 200
+[DEBUG] 2021-09-29 11:53:25.978 CurlHttpClient [139686213267648] Returned content type application/xml
+[DEBUG] 2021-09-29 11:53:25.978 CurlHttpClient [139686213267648] Releasing curl handle 0x563ba4c61300
+[DEBUG] 2021-09-29 11:53:25.978 CurlHandleContainer [139686213267648] Releasing curl handle 0x563ba4c61300
+[DEBUG] 2021-09-29 11:53:25.978 CurlHandleContainer [139686213267648] Notified waiting threads.
+[DEBUG] 2021-09-29 11:53:25.978 AWSClient [139686213267648] Request returned successful response.
+[INFO] 2021-09-29 11:53:25.979 CurlHandleContainer [139686213267648] Cleaning up CurlHandleContainer.
+[DEBUG] 2021-09-29 11:53:25.979 CurlHandleContainer [139686213267648] Cleaning up 0x563ba4c58910
+[DEBUG] 2021-09-29 11:53:25.979 CurlHandleContainer [139686213267648] Cleaning up 0x563ba4c61300
+[INFO] 2021-09-29 11:53:25.981 CurlHandleContainer [139686213267648] Cleaning up CurlHandleContainer.
+[DEBUG] 2021-09-29 11:53:25.981 CurlHandleContainer [139686213267648] Cleaning up 0x563ba4c4a9d0
+[DEBUG] 2021-09-29 11:53:25.981 CurlHandleContainer [139686213267648] Cleaning up 0x563ba4c50170
+[INFO] 2021-09-29 11:56:06.303 Aws_Init_Cleanup [139869038579904] Initiate AWS SDK for C++ with Version:1.9.108
+[DEBUG] 2021-09-29 11:56:06.303 FileSystemUtils [139869038579904] Environment value for variable HOME is /home/hamza
+[DEBUG] 2021-09-29 11:56:06.303 FileSystemUtils [139869038579904] Home directory is missing the final / appending one to normalize
+[DEBUG] 2021-09-29 11:56:06.303 FileSystemUtils [139869038579904] Final Home Directory is /home/hamza/
+[INFO] 2021-09-29 11:56:06.303 Aws::Config::AWSConfigFileProfileConfigLoader [139869038579904] Initializing config loader against fileName /home/hamza/.aws/credentials and using profilePrefix = 0
+[DEBUG] 2021-09-29 11:56:06.303 FileSystemUtils [139869038579904] Environment value for variable HOME is /home/hamza
+[DEBUG] 2021-09-29 11:56:06.303 FileSystemUtils [139869038579904] Home directory is missing the final / appending one to normalize
+[DEBUG] 2021-09-29 11:56:06.303 FileSystemUtils [139869038579904] Final Home Directory is /home/hamza/
+[INFO] 2021-09-29 11:56:06.303 Aws::Config::AWSConfigFileProfileConfigLoader [139869038579904] Initializing config loader against fileName /home/hamza/.aws/config and using profilePrefix = 1
+[DEBUG] 2021-09-29 11:56:06.303 FileSystemUtils [139869038579904] Environment value for variable HOME is /home/hamza
+[DEBUG] 2021-09-29 11:56:06.303 FileSystemUtils [139869038579904] Home directory is missing the final / appending one to normalize
+[DEBUG] 2021-09-29 11:56:06.303 FileSystemUtils [139869038579904] Final Home Directory is /home/hamza/
+[DEBUG] 2021-09-29 11:56:06.306 Aws::Config::ConfigFileProfileFSM [139869038579904] found profile default
+[DEBUG] 2021-09-29 11:56:06.307 Aws::Config::ConfigFileProfileFSM [139869038579904] found access key AKIAYMNKOGHN2VMCJN47
+[INFO] 2021-09-29 11:56:06.308 Aws::Config::AWSProfileConfigLoader [139869038579904] Successfully reloaded configuration.
+[DEBUG] 2021-09-29 11:56:06.308 FileSystemUtils [139869038579904] Environment value for variable HOME is /home/hamza
+[DEBUG] 2021-09-29 11:56:06.308 FileSystemUtils [139869038579904] Home directory is missing the final / appending one to normalize
+[DEBUG] 2021-09-29 11:56:06.308 FileSystemUtils [139869038579904] Final Home Directory is /home/hamza/
+[INFO] 2021-09-29 11:56:06.310 Aws::Config::AWSConfigFileProfileConfigLoader [139869038579904] Unable to open config file /home/hamza/.aws/config for reading.
+[INFO] 2021-09-29 11:56:06.310 Aws::Config::AWSProfileConfigLoader [139869038579904] Failed to reload configuration.
+[INFO] 2021-09-29 11:56:06.310 event-loop [139869038579904] id=0x5566965255a0: Initializing edge-triggered epoll
+[INFO] 2021-09-29 11:56:06.310 event-loop [139869038579904] id=0x5566965255a0: Using eventfd for cross-thread notifications.
+[INFO] 2021-09-29 11:56:06.310 event-loop [139869038579904] id=0x5566965255a0: Starting event-loop thread.
+[INFO] 2021-09-29 11:56:06.310 event-loop [139869038579904] id=0x556696502fb0: Initializing edge-triggered epoll
+[INFO] 2021-09-29 11:56:06.310 event-loop [139869038579904] id=0x556696502fb0: Using eventfd for cross-thread notifications.
+[INFO] 2021-09-29 11:56:06.310 event-loop [139869038579904] id=0x556696502fb0: Starting event-loop thread.
+[INFO] 2021-09-29 11:56:06.310 event-loop [139869030172416] id=0x5566965255a0: main loop started
+[INFO] 2021-09-29 11:56:06.310 event-loop [139869030172416] id=0x5566965255a0: default timeout 100000, and max events to process per tick 100
+[INFO] 2021-09-29 11:56:06.310 dns [139869038579904] id=0x556696529cd0: Initializing default host resolver with 8 max host entries.
+[INFO] 2021-09-29 11:56:06.310 event-loop [139868898326272] id=0x556696502fb0: main loop started
+[INFO] 2021-09-29 11:56:06.310 event-loop [139868898326272] id=0x556696502fb0: default timeout 100000, and max events to process per tick 100
+[INFO] 2021-09-29 11:56:06.311 channel-bootstrap [139869038579904] id=0x55669652a1b0: Initializing client bootstrap with event-loop group 0x55669652a430
+[INFO] 2021-09-29 11:56:06.323 CurlHttpClient [139869038579904] Initializing Curl library with version: 7.68.0, ssl version: OpenSSL/1.1.1f
+[INFO] 2021-09-29 11:56:06.324 EC2MetadataClient [139869038579904] Using IMDS endpoint: http://169.254.169.254
+[DEBUG] 2021-09-29 11:56:06.324 ClientConfiguration [139869038579904] ClientConfiguration will use SDK Auto Resolved profile: [default] if not specified by users.
+[WARN] 2021-09-29 11:56:06.324 ClientConfiguration [139869038579904] Retry Strategy will use the default max attempts.
+[INFO] 2021-09-29 11:56:06.324 EC2MetadataClient [139869038579904] Creating AWSHttpResourceClient with max connections 2 and scheme http
+[INFO] 2021-09-29 11:56:06.324 CurlHandleContainer [139869038579904] Initializing CurlHandleContainer with size 2
+[DEBUG] 2021-09-29 11:56:06.325 ClientConfiguration [139869038579904] ClientConfiguration will use SDK Auto Resolved profile: [default] if not specified by users.
+[WARN] 2021-09-29 11:56:06.325 ClientConfiguration [139869038579904] Retry Strategy will use the default max attempts.
+[DEBUG] 2021-09-29 11:56:06.325 CurlHandleContainer [139869038579904] Attempting to acquire curl connection.
+[DEBUG] 2021-09-29 11:56:06.325 CurlHandleContainer [139869038579904] No current connections available in pool. Attempting to create new connections.
+[DEBUG] 2021-09-29 11:56:06.325 CurlHandleContainer [139869038579904] attempting to grow pool size by 2
+[INFO] 2021-09-29 11:56:06.325 CurlHandleContainer [139869038579904] Pool grown by 2
+[INFO] 2021-09-29 11:56:06.325 CurlHandleContainer [139869038579904] Connection has been released. Continuing.
+[DEBUG] 2021-09-29 11:56:06.325 CurlHandleContainer [139869038579904] Returning connection handle 0x5566965ed170
+[DEBUG] 2021-09-29 11:56:06.325 CurlHttpClient [139869038579904] Obtained connection handle 0x5566965ed170
+[DEBUG] 2021-09-29 11:56:06.325 CURL [139869038579904] (Text)   Trying 169.254.169.254:80...
+
+[DEBUG] 2021-09-29 11:56:06.325 CURL [139869038579904] (Text) TCP_NODELAY set
+
+[DEBUG] 2021-09-29 11:56:07.327 CURL [139869038579904] (Text) Connection timed out after 1001 milliseconds
+
+[DEBUG] 2021-09-29 11:56:07.327 CURL [139869038579904] (Text) Closing connection 0
+
+[ERROR] 2021-09-29 11:56:07.327 CurlHttpClient [139869038579904] Curl returned error code 28 - Timeout was reached
+[DEBUG] 2021-09-29 11:56:07.327 CurlHandleContainer [139869038579904] Destroy curl handle: 0x5566965ed170
+[DEBUG] 2021-09-29 11:56:07.327 CurlHandleContainer [139869038579904] Created replacement handle and released to pool: 0x5566965ed170
+[ERROR] 2021-09-29 11:56:07.327 EC2MetadataClient [139869038579904] Http request to retrieve credentials failed
+[WARN] 2021-09-29 11:56:07.327 EC2MetadataClient [139869038579904] Request failed, now waiting 0 ms before attempting again.
+[DEBUG] 2021-09-29 11:56:07.328 CurlHandleContainer [139869038579904] Attempting to acquire curl connection.
+[INFO] 2021-09-29 11:56:07.328 CurlHandleContainer [139869038579904] Connection has been released. Continuing.
+[DEBUG] 2021-09-29 11:56:07.328 CurlHandleContainer [139869038579904] Returning connection handle 0x5566965ed170
+[DEBUG] 2021-09-29 11:56:07.328 CurlHttpClient [139869038579904] Obtained connection handle 0x5566965ed170
+[DEBUG] 2021-09-29 11:56:07.328 CURL [139869038579904] (Text)   Trying 169.254.169.254:80...
+
+[DEBUG] 2021-09-29 11:56:07.328 CURL [139869038579904] (Text) TCP_NODELAY set
+
+[DEBUG] 2021-09-29 11:56:08.329 CURL [139869038579904] (Text) Connection timed out after 1001 milliseconds
+
+[DEBUG] 2021-09-29 11:56:08.329 CURL [139869038579904] (Text) Closing connection 0
+
+[ERROR] 2021-09-29 11:56:08.329 CurlHttpClient [139869038579904] Curl returned error code 28 - Timeout was reached
+[DEBUG] 2021-09-29 11:56:08.329 CurlHandleContainer [139869038579904] Destroy curl handle: 0x5566965ed170
+[DEBUG] 2021-09-29 11:56:08.329 CurlHandleContainer [139869038579904] Created replacement handle and released to pool: 0x5566965ed170
+[ERROR] 2021-09-29 11:56:08.329 EC2MetadataClient [139869038579904] Http request to retrieve credentials failed
+[ERROR] 2021-09-29 11:56:08.329 EC2MetadataClient [139869038579904] Can not retrieve resource from http://169.254.169.254/latest/meta-data/placement/availability-zone
+[INFO] 2021-09-29 11:56:08.329 EC2MetadataClient [139869038579904] Unable to pull region from instance metadata service 
+[DEBUG] 2021-09-29 11:56:08.330 FileSystemUtils [139869038579904] Environment value for variable HOME is /home/hamza
+[DEBUG] 2021-09-29 11:56:08.330 FileSystemUtils [139869038579904] Home directory is missing the final / appending one to normalize
+[DEBUG] 2021-09-29 11:56:08.330 FileSystemUtils [139869038579904] Final Home Directory is /home/hamza/
+[INFO] 2021-09-29 11:56:08.330 Aws::Config::AWSConfigFileProfileConfigLoader [139869038579904] Initializing config loader against fileName /home/hamza/.aws/credentials and using profilePrefix = 0
+[DEBUG] 2021-09-29 11:56:08.330 FileSystemUtils [139869038579904] Environment value for variable HOME is /home/hamza
+[DEBUG] 2021-09-29 11:56:08.330 FileSystemUtils [139869038579904] Home directory is missing the final / appending one to normalize
+[DEBUG] 2021-09-29 11:56:08.330 FileSystemUtils [139869038579904] Final Home Directory is /home/hamza/
+[DEBUG] 2021-09-29 11:56:08.330 FileSystemUtils [139869038579904] Environment value for variable HOME is /home/hamza
+[DEBUG] 2021-09-29 11:56:08.330 FileSystemUtils [139869038579904] Home directory is missing the final / appending one to normalize
+[DEBUG] 2021-09-29 11:56:08.330 FileSystemUtils [139869038579904] Final Home Directory is /home/hamza/
+[INFO] 2021-09-29 11:56:08.330 ProfileConfigFileAWSCredentialsProvider [139869038579904] Setting provider to read credentials from /home/hamza/.aws/credentials for credentials file and /home/hamza/.aws/config for the config file , for use with profile default
+[INFO] 2021-09-29 11:56:08.330 ProcessCredentialsProvider [139869038579904] Setting process credentials provider to read config from default
+[WARN] 2021-09-29 11:56:08.330 STSAssumeRoleWithWebIdentityCredentialsProvider [139869038579904] Token file must be specified to use STS AssumeRole web identity creds provider.
+[INFO] 2021-09-29 11:56:08.330 SSOCredentialsProvider [139869038579904] Setting sso credentials provider to read config from default
+[DEBUG] 2021-09-29 11:56:08.330 DefaultAWSCredentialsProviderChain [139869038579904] The environment variable value AWS_CONTAINER_CREDENTIALS_RELATIVE_URI is 
+[DEBUG] 2021-09-29 11:56:08.330 DefaultAWSCredentialsProviderChain [139869038579904] The environment variable value AWS_CONTAINER_CREDENTIALS_FULL_URI is 
+[DEBUG] 2021-09-29 11:56:08.330 DefaultAWSCredentialsProviderChain [139869038579904] The environment variable value AWS_EC2_METADATA_DISABLED is 
+[INFO] 2021-09-29 11:56:08.330 InstanceProfileCredentialsProvider [139869038579904] Creating Instance with default EC2MetadataClient and refresh rate 300000
+[INFO] 2021-09-29 11:56:08.330 DefaultAWSCredentialsProviderChain [139869038579904] Added EC2 metadata service credentials provider to the provider chain.
+[DEBUG] 2021-09-29 11:56:08.334 Aws::Config::ConfigFileProfileFSM [139869038579904] found profile default
+[DEBUG] 2021-09-29 11:56:08.334 Aws::Config::ConfigFileProfileFSM [139869038579904] found access key AKIAYMNKOGHN2VMCJN47
+[INFO] 2021-09-29 11:56:08.335 Aws::Config::AWSProfileConfigLoader [139869038579904] Successfully reloaded configuration.
+[INFO] 2021-09-29 11:56:08.336 CurlHandleContainer [139869038579904] Initializing CurlHandleContainer with size 25
+[DEBUG] 2021-09-29 11:56:08.336 AWSAuthV4Signer [139869038579904] Note: Http payloads are not being signed. signPayloads=0 http scheme=https
+[DEBUG] 2021-09-29 11:56:08.337 AWSAuthV4Signer [139869038579904] Canonical Header String: amz-sdk-invocation-id:F6969610-5718-4F38-B58E-E698C693D308
+amz-sdk-request:attempt=1
+host:s3.us-east-1.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20210929T115608Z
+
+[DEBUG] 2021-09-29 11:56:08.337 AWSAuthV4Signer [139869038579904] Signed Headers value:amz-sdk-invocation-id;amz-sdk-request;host;x-amz-content-sha256;x-amz-date
+[DEBUG] 2021-09-29 11:56:08.337 AWSAuthV4Signer [139869038579904] Canonical Request String: GET
+/
+
+amz-sdk-invocation-id:F6969610-5718-4F38-B58E-E698C693D308
+amz-sdk-request:attempt=1
+host:s3.us-east-1.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20210929T115608Z
+
+amz-sdk-invocation-id;amz-sdk-request;host;x-amz-content-sha256;x-amz-date
+UNSIGNED-PAYLOAD
+[DEBUG] 2021-09-29 11:56:08.337 AWSAuthV4Signer [139869038579904] Final String to sign: AWS4-HMAC-SHA256
+20210929T115608Z
+20210929/us-east-1/s3/aws4_request
+4f30341c9a72990371af30a534e9e61110c2c60f41867bcf6a94546f0d389dc0
+[DEBUG] 2021-09-29 11:56:08.337 AWSAuthV4Signer [139869038579904] Final computed signing hash: 715bc40f9a1609b452c6646725e6400cc832098e208d563bbafdd2d882fab0ec
+[DEBUG] 2021-09-29 11:56:08.337 AWSAuthV4Signer [139869038579904] Signing request with: AWS4-HMAC-SHA256 Credential=AKIAYMNKOGHN2VMCJN47/20210929/us-east-1/s3/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-request;host;x-amz-content-sha256;x-amz-date, Signature=715bc40f9a1609b452c6646725e6400cc832098e208d563bbafdd2d882fab0ec
+[DEBUG] 2021-09-29 11:56:08.337 AWSClient [139869038579904] Request Successfully signed
+[DEBUG] 2021-09-29 11:56:08.337 CurlHandleContainer [139869038579904] Attempting to acquire curl connection.
+[DEBUG] 2021-09-29 11:56:08.337 CurlHandleContainer [139869038579904] No current connections available in pool. Attempting to create new connections.
+[DEBUG] 2021-09-29 11:56:08.337 CurlHandleContainer [139869038579904] attempting to grow pool size by 2
+[INFO] 2021-09-29 11:56:08.337 CurlHandleContainer [139869038579904] Pool grown by 2
+[INFO] 2021-09-29 11:56:08.337 CurlHandleContainer [139869038579904] Connection has been released. Continuing.
+[DEBUG] 2021-09-29 11:56:08.337 CurlHandleContainer [139869038579904] Returning connection handle 0x5566965fe300
+[DEBUG] 2021-09-29 11:56:08.337 CurlHttpClient [139869038579904] Obtained connection handle 0x5566965fe300
+[DEBUG] 2021-09-29 11:56:08.371 CURL [139869038579904] (Text)   Trying 52.216.110.245:443...
+
+[DEBUG] 2021-09-29 11:56:08.371 CURL [139869038579904] (Text) TCP_NODELAY set
+
+[DEBUG] 2021-09-29 11:56:08.561 CURL [139869038579904] (Text) Connected to s3.us-east-1.amazonaws.com (52.216.110.245) port 443 (#0)
+
+[DEBUG] 2021-09-29 11:56:08.563 CURL [139869038579904] (Text) ALPN, offering h2
+
+[DEBUG] 2021-09-29 11:56:08.563 CURL [139869038579904] (Text) ALPN, offering http/1.1
+
+[DEBUG] 2021-09-29 11:56:08.583 CURL [139869038579904] (Text) successfully set certificate verify locations:
+
+[DEBUG] 2021-09-29 11:56:08.583 CURL [139869038579904] (Text)   CAfile: /etc/ssl/certs/ca-certificates.crt
+  CApath: /etc/ssl/certs
+
+[DEBUG] 2021-09-29 11:56:08.584 CURL [139869038579904] (SSLDataOut) 5bytes
+[DEBUG] 2021-09-29 11:56:08.584 CURL [139869038579904] (Text) TLSv1.3 (OUT), TLS handshake, Client hello (1):
+
+[DEBUG] 2021-09-29 11:56:08.584 CURL [139869038579904] (SSLDataOut) 512bytes
+[DEBUG] 2021-09-29 11:56:08.775 CURL [139869038579904] (SSLDataIn) 5bytes
+[DEBUG] 2021-09-29 11:56:08.775 CURL [139869038579904] (Text) TLSv1.3 (IN), TLS handshake, Server hello (2):
+
+[DEBUG] 2021-09-29 11:56:08.775 CURL [139869038579904] (SSLDataIn) 91bytes
+[DEBUG] 2021-09-29 11:56:08.775 CURL [139869038579904] (SSLDataIn) 5bytes
+[DEBUG] 2021-09-29 11:56:08.775 CURL [139869038579904] (Text) TLSv1.2 (IN), TLS handshake, Certificate (11):
+
+[DEBUG] 2021-09-29 11:56:08.775 CURL [139869038579904] (SSLDataIn) 3324bytes
+[DEBUG] 2021-09-29 11:56:08.775 CURL [139869038579904] (SSLDataIn) 5bytes
+[DEBUG] 2021-09-29 11:56:08.776 CURL [139869038579904] (Text) TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+
+[DEBUG] 2021-09-29 11:56:08.776 CURL [139869038579904] (SSLDataIn) 333bytes
+[DEBUG] 2021-09-29 11:56:08.776 CURL [139869038579904] (SSLDataIn) 5bytes
+[DEBUG] 2021-09-29 11:56:08.776 CURL [139869038579904] (Text) TLSv1.2 (IN), TLS handshake, Server finished (14):
+
+[DEBUG] 2021-09-29 11:56:08.776 CURL [139869038579904] (SSLDataIn) 4bytes
+[DEBUG] 2021-09-29 11:56:08.776 CURL [139869038579904] (SSLDataOut) 5bytes
+[DEBUG] 2021-09-29 11:56:08.776 CURL [139869038579904] (Text) TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+
+[DEBUG] 2021-09-29 11:56:08.776 CURL [139869038579904] (SSLDataOut) 70bytes
+[DEBUG] 2021-09-29 11:56:08.776 CURL [139869038579904] (SSLDataOut) 5bytes
+[DEBUG] 2021-09-29 11:56:08.776 CURL [139869038579904] (Text) TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):
+
+[DEBUG] 2021-09-29 11:56:08.776 CURL [139869038579904] (SSLDataOut) 1bytes
+[DEBUG] 2021-09-29 11:56:08.776 CURL [139869038579904] (SSLDataOut) 5bytes
+[DEBUG] 2021-09-29 11:56:08.776 CURL [139869038579904] (Text) TLSv1.2 (OUT), TLS handshake, Finished (20):
+
+[DEBUG] 2021-09-29 11:56:08.776 CURL [139869038579904] (SSLDataOut) 16bytes
+[DEBUG] 2021-09-29 11:56:08.979 CURL [139869038579904] (SSLDataIn) 5bytes
+[DEBUG] 2021-09-29 11:56:08.979 CURL [139869038579904] (SSLDataIn) 5bytes
+[DEBUG] 2021-09-29 11:56:08.979 CURL [139869038579904] (Text) TLSv1.2 (IN), TLS handshake, Finished (20):
+
+[DEBUG] 2021-09-29 11:56:08.979 CURL [139869038579904] (SSLDataIn) 16bytes
+[DEBUG] 2021-09-29 11:56:08.979 CURL [139869038579904] (Text) SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+
+[DEBUG] 2021-09-29 11:56:08.979 CURL [139869038579904] (Text) ALPN, server did not agree to a protocol
+
+[DEBUG] 2021-09-29 11:56:08.979 CURL [139869038579904] (Text) Server certificate:
+
+[DEBUG] 2021-09-29 11:56:08.979 CURL [139869038579904] (Text)  subject: C=US; ST=Washington; L=Seattle; O=Amazon.com, Inc.; CN=s3.amazonaws.com
+
+[DEBUG] 2021-09-29 11:56:08.979 CURL [139869038579904] (Text)  start date: Jun 23 00:00:00 2021 GMT
+
+[DEBUG] 2021-09-29 11:56:08.979 CURL [139869038579904] (Text)  expire date: Jul 24 23:59:59 2022 GMT
+
+[DEBUG] 2021-09-29 11:56:08.979 CURL [139869038579904] (Text)  subjectAltName: host "s3.us-east-1.amazonaws.com" matched cert's "s3.us-east-1.amazonaws.com"
+
+[DEBUG] 2021-09-29 11:56:08.979 CURL [139869038579904] (Text)  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=DigiCert Baltimore CA-2 G2
+
+[DEBUG] 2021-09-29 11:56:08.979 CURL [139869038579904] (Text)  SSL certificate verify ok.
+
+[DEBUG] 2021-09-29 11:56:08.980 CURL [139869038579904] (SSLDataOut) 5bytes
+[DEBUG] 2021-09-29 11:56:08.980 CURL [139869038579904] (HeaderOut) GET / HTTP/1.1
+Host: s3.us-east-1.amazonaws.com
+Accept: */*
+amz-sdk-invocation-id: F6969610-5718-4F38-B58E-E698C693D308
+amz-sdk-request: attempt=1
+authorization: AWS4-HMAC-SHA256 Credential=AKIAYMNKOGHN2VMCJN47/20210929/us-east-1/s3/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-request;host;x-amz-content-sha256;x-amz-date, Signature=715bc40f9a1609b452c6646725e6400cc832098e208d563bbafdd2d882fab0ec
+user-agent: aws-sdk-cpp/1.9.108 Linux/5.4.72-microsoft-standard-WSL2 x86_64 GCC/9.3.0
+x-amz-content-sha256: UNSIGNED-PAYLOAD
+x-amz-date: 20210929T115608Z
+
+
+[DEBUG] 2021-09-29 11:56:09.198 CURL [139869038579904] (SSLDataIn) 5bytes
+[DEBUG] 2021-09-29 11:56:09.198 CURL [139869038579904] (Text) Mark bundle as not supporting multiuse
+
+[DEBUG] 2021-09-29 11:56:09.198 CURL [139869038579904] (HeaderIn) HTTP/1.1 200 OK
+
+[DEBUG] 2021-09-29 11:56:09.198 CURL [139869038579904] (HeaderIn) x-amz-id-2: DifZn6HUlTWznQKzoPw9Thtf9p+tN2vSE8Ma5ku86Fd5QHUOXW3mc8qEferA53kCKPpqOqybI5Y=
+
+[DEBUG] 2021-09-29 11:56:09.198 CURL [139869038579904] (HeaderIn) x-amz-request-id: 1GFQ87J1G9AE3FN5
+
+[DEBUG] 2021-09-29 11:56:09.198 CURL [139869038579904] (HeaderIn) Date: Wed, 29 Sep 2021 11:56:09 GMT
+
+[DEBUG] 2021-09-29 11:56:09.198 CURL [139869038579904] (HeaderIn) Content-Type: application/xml
+
+[DEBUG] 2021-09-29 11:56:09.198 CURL [139869038579904] (HeaderIn) Transfer-Encoding: chunked
+
+[DEBUG] 2021-09-29 11:56:09.198 CURL [139869038579904] (HeaderIn) Server: AmazonS3
+
+[DEBUG] 2021-09-29 11:56:09.198 CURL [139869038579904] (HeaderIn) 
+
+[DEBUG] 2021-09-29 11:56:09.198 CURL [139869038579904] (SSLDataIn) 5bytes
+[DEBUG] 2021-09-29 11:56:09.198 CURL [139869038579904] (DataIn) 10f
+<?xml version="1.0" encoding="UTF-8"?>
+<ListAllMyBucketsResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><Owner><ID>45f0ca1519d305ce4d82b35657c46ffcc619f9caa8d2ced683839fd9b16080bf</ID><DisplayName>hamzaryzvy</DisplayName></Owner><Buckets/></ListAllMyBucketsResult>
+
+[DEBUG] 2021-09-29 11:56:09.198 CURL [139869038579904] (SSLDataIn) 5bytes
+[DEBUG] 2021-09-29 11:56:09.198 CURL [139869038579904] (DataIn) 0
+
+
+[DEBUG] 2021-09-29 11:56:09.198 CURL [139869038579904] (Text) Connection #0 to host s3.us-east-1.amazonaws.com left intact
+
+[DEBUG] 2021-09-29 11:56:09.198 CurlHttpClient [139869038579904] Returned http response code 200
+[DEBUG] 2021-09-29 11:56:09.198 CurlHttpClient [139869038579904] Returned content type application/xml
+[DEBUG] 2021-09-29 11:56:09.198 CurlHttpClient [139869038579904] Releasing curl handle 0x5566965fe300
+[DEBUG] 2021-09-29 11:56:09.198 CurlHandleContainer [139869038579904] Releasing curl handle 0x5566965fe300
+[DEBUG] 2021-09-29 11:56:09.198 CurlHandleContainer [139869038579904] Notified waiting threads.
+[DEBUG] 2021-09-29 11:56:09.198 AWSClient [139869038579904] Request returned successful response.
+[INFO] 2021-09-29 11:56:09.199 CurlHandleContainer [139869038579904] Cleaning up CurlHandleContainer.
+[DEBUG] 2021-09-29 11:56:09.200 CurlHandleContainer [139869038579904] Cleaning up 0x5566965f5910
+[DEBUG] 2021-09-29 11:56:09.200 CurlHandleContainer [139869038579904] Cleaning up 0x5566965fe300
+[INFO] 2021-09-29 11:56:09.201 CurlHandleContainer [139869038579904] Cleaning up CurlHandleContainer.
+[DEBUG] 2021-09-29 11:56:09.201 CurlHandleContainer [139869038579904] Cleaning up 0x5566965e79d0
+[DEBUG] 2021-09-29 11:56:09.201 CurlHandleContainer [139869038579904] Cleaning up 0x5566965ed170

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/hamza/Desktop/HelloS3/main.cpp
+iostream
+-
+aws/core/Aws.h
+-
+aws/core/utils/logging/LogLevel.h
+-
+aws/s3/S3Client.h
+-
+
